@@ -1,0 +1,7 @@
+mymodulehb.content:
+  path: '/mymodulehb'
+  defaults:
+    _controller: '\Drupal\mymodulehb\Controller\FirstController::content'
+    _title: 'My First page and first Meni item'
+  requirements:
+    _permission: 'access content'

@@ -1,0 +1,6 @@
+mymodulehb.newpage:
+  title: 'MyModulehb Equipe'
+  description: 'Lien a ce page mymodulehb'
+  route_name: mymodulehb.content
+  weight: 10
+  menu_name: main
