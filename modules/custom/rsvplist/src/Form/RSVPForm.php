@@ -34,7 +34,7 @@ class RSVPForm extends FormBase {
 
     $nid = null;
     if ($node instanceof \Drupal\node\NodeInterface) {
-      $nid = $node->id()->value;
+      $nid = $node->id();
     }
     $form['email'] = array(
       '#title' => t('Email address'),
